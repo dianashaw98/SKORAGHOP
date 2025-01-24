@@ -2,6 +2,11 @@
 
 ### **Step 1 - Deploy the SKORAGHOP to your Snowflake demo account**
 - Follow standard Snowflake Solution Center deployment instructions
+  #### Get Help
+  Please reach out to #frostbytes if you need any help with this solution! This includes getting access to the data share or any other questions you may have.
+
+  #### How to use the Snowflake Solutions Center
+  <div style="position: relative; padding-bottom: 59.210526315789465%; height: 0;"><iframe src="https://drive.google.com/file/d/1yLx7Niay0rygzvNLUNx_yl1WPVDAzbb0/preview" width="640" height="480" allow="autoplay"></iframe></div>
 
 ### **Step 2 - Snowflake Notebooks**
 - Recommend using the **ACCOUNTADMIN** role

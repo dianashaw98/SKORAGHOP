@@ -2,7 +2,7 @@
 
 This lab guides you through creating a Retrieval-Augmented Generation (RAG) workflow in Snowflake. It covers everything from parsing documents, chunking text, customizing Cortex Search Service to augment search results, and integrates a new Anthropic LLM, and finally leverages AI observability to evaluate LLM responses. 
 
-![SKO RAG HOP FLOW](img/Flow.jpg)
+![HOL Overview](Flow.jpg)
 
 Below is an overview of the flow and its key components.
 
@@ -29,3 +29,6 @@ Implement Python classes to build your RAG pipeline, integrating search and LLM 
 ### Step 6: Observe and Evaluate LLM Performance with AI Observabillity (EVALUATE)
 Evaluate LLM Performance with Observability:
 Integrate AI Observability (Trulens) for feedback-based evaluation, measuring metrics such as relevance, groundedness, conciseness, and coherence to enhance model performance.
+
+![Anthropic in Snowflake Cortex AI](Anthropic.jpg)
+![AI Observability](AIObservability.jpg)

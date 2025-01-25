@@ -1,0 +1,25 @@
+## Update this file to reflect your solution.
+## Rename it to listing.yml when you are ready to submit your solution to the SSC.
+
+name: "SKO RAG HOP" # Title that appears on the SSC listing
+version: "v1" # A marketing version number to help your consumers understand the iterations of this solution
+tier: 2 # Rated certification tier of the solution (Default is 2 = "Solution"), see docs for other tiers
+description: "Showcase how Snowflake can ..." # Shows up on the listing results page
+creator: "community" # Your team name, E.g. "frostbyte" or "PolarIS" or "community"
+icon: "https://app.dataops.live/uploads/-/system/project/avatar/7853/template.png" # The small icon that appears on the listing results page
+release_status: "Draft" # Start off as a draft, then change to "Published" when you've tested and are ready to share with the hundreds of users
+
+## Add metadata and searchable keywords. Warning: only specific keywords are permitted.
+## Get the full list of valid values from the SSC docs in the web app.
+# use_case:
+# snowflake_feature:
+# partner:
+# vertical_applicability:
+# workload:
+pre_instance_setup_message: |
+  <h2>Pre-instance setup instructions</h2>
+  <p>Before you can set up this instance, you need to do the following:</p>
+  <ol>
+    <li>Get you Snowflake account ready.</li>
+    <li>Deploy this solution using this form.</li>
+  </ol>

@@ -1,4 +1,4 @@
-# SKO2025_RAG_HOP
+# ❄️ SKO RAG HOP - Snowflake Cortex with Anthropic and LLM Observability ❄️
 
 This lab guides you through creating a Retrieval-Augmented Generation (RAG) workflow in Snowflake. It covers everything from parsing documents, chunking text, customizing Cortex Search Service to augment search results, and integrates a new Anthropic LLM, and finally leverages AI observability to evaluate LLM responses. 
 

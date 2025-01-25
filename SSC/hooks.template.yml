@@ -1,0 +1,8 @@
+database_level_hooks:
+  post_hooks:
+    - command: "USE WAREHOUSE {{ env.DATAOPS_CATALOG_SOLUTION_PREFIX | lower }}_ds_wh;"
+      environment: snowflake
+    - command: "CREATE STAGE IF NOT EXISTS {{ env.DATAOPS_DATABASE }}.hop.rag DIRECTORY = (ENABLE = TRUE) ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE');"
+      environment: snowflake
+    - command: "GRANT OWNERSHIP ON STAGE {{ env.DATAOPS_DATABASE }}.hop.rag TO ROLE public COPY CURRENT GRANTS;"
+      environment: snowflake

@@ -26,7 +26,7 @@ Use Cortex's COMPLETE function to interact with models like mistral-7b, mistral-
 Develop and Test RAG Application Classes:
 Implement Python classes to build your RAG pipeline, integrating search and LLM functionality with structured prompt generation.
 
-### Step 6: Observe and Evaluate LLM Performance with AI Observabillity (EVALUATE)
+### Step 6: Observe and Evaluate LLM Performance with AI Observability (EVALUATE)
 Evaluate LLM Performance with Observability:
 Integrate AI Observability (Trulens) for feedback-based evaluation, measuring metrics such as relevance, groundedness, conciseness, and coherence to enhance model performance.
 
